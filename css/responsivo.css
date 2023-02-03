@@ -113,3 +113,41 @@
     
     
 }
+@media screen and (min-width:667px) and (max-width:736px) {
+    .name-empresa{
+        display: none;
+    }
+    .logotipo{
+        display: block;
+        height: 50px;
+        width: auto;
+    }
+   .menu-responsivo{
+    position: relative;
+    
+   }
+    .menu{
+    position:absolute;
+    background-color:#012060;
+    box-sizing: border-box;
+    text-align: right;
+    z-index: 1;
+    top: 75px;
+    width: 160px;
+    right: 0px;
+   }
+   .icone-menu{
+    display:block;
+   }
+   .barra{
+    width:30px;
+    height: 5px;
+    margin: 5px;
+   }
+   
+   .menu a{
+    display:block;
+   }
+    
+    
+}
