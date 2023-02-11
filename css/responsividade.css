@@ -89,7 +89,7 @@
     .nav-mobile a{
         display: flex;
         color: white;
-        padding: 8px;
+        padding: 6px;
         font-family:'sans';
         text-decoration: none;
         text-transform: uppercase;
