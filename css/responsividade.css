@@ -1,0 +1,196 @@
+@media screen and (min-width:736px) and (max-width:768px){
+    .name-empresa{
+        display: none;
+    }
+    .logotipo{
+        display: block;
+        height: 40px;
+        width: auto;
+    }
+    .menu{
+        display: none;
+    }
+    .icone-menu{
+        display: block;
+    }
+    .nav-mobile{
+        background-color:#182C61;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+    .nav-mobile a{
+        display: flex;
+        padding: 15px;
+        color: white;
+        font-family:'sans';
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    
+
+    
+}
+
+@media screen and (min-width:667px) and (max-width:736px){
+    .name-empresa{
+        display: none;
+    }
+    .logotipo{
+        display: block;
+        height: 40px;
+        width: auto;
+    }
+    .menu{
+        display: none;
+    }
+    .icone-menu{
+        display: block;
+    }
+    .nav-mobile{
+        background-color:#182C61;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+    .nav-mobile a{
+        display: flex;
+        padding: 15px;
+        color: white;
+        
+        font-family:'sans';
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:667px){
+    .name-empresa{
+        display: none;
+    }
+    .logotipo{
+        display: block;
+        height: 40px;
+        width: auto;
+    }
+    .menu{
+        display: none;
+    }
+    .icone-menu{
+        display: block;
+    }
+    .nav-mobile{
+        background-color:#182C61;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+    .nav-mobile a{
+        display: flex;
+        color: white;
+        padding: 8px;
+        font-family:'sans';
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+}
+
+@media screen and (min-width:375px) and (max-width:414px){
+    .name-empresa{
+        display: none;
+    }
+    .logotipo{
+        display: block;
+        height: 40px;
+        width: auto;
+    }
+    .menu{
+        display: none;
+    }
+    .icone-menu{
+        display: block;
+    }
+    .nav-mobile{
+        background-color:#182C61;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+    .nav-mobile a{
+        display: flex;
+        padding: 15px;
+        color: white;
+        font-family:'sans';
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+}
+
+@media screen and (min-width:320px) and (max-width:375px){
+    .name-empresa{
+        display: none;
+    }
+    .logotipo{
+        display: block;
+        height: 40px;
+        width: auto;
+    }
+    .menu{
+        display: none;
+    }
+    .icone-menu{
+        display: block;
+    }
+    .nav-mobile{
+        background-color:#182C61;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+    .nav-mobile a{
+        display: flex;
+        padding: 15px;
+        color: white;
+        
+        font-family:'sans';
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+}
+
+@media screen and (max-width:320px){
+    .name-empresa{
+        display: none;
+    }
+    .logotipo{
+        display: block;
+        height: 40px;
+        width: auto;
+    }
+    .menu{
+        display: none;
+    }
+    .icone-menu{
+        display: block;
+    }
+    .nav-mobile{
+        background-color:#182C61;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+    .nav-mobile a{
+        display: flex;
+        padding: 15px;
+        color: white;
+        
+        font-family:'sans';
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+}

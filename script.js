@@ -1,7 +1,7 @@
 
 
 function abrirMenu(){
-    let nav=document.getElementById("menu-descktop")
+    let nav=document.getElementById("menu-mobile")
      if(nav.style.display =='none'){
         nav.style.display='block'
      }else{

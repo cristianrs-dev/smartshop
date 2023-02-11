@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/logoSmart.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/responsividade.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Smart Shop</title>
     <style>
@@ -21,22 +21,29 @@
            <h1 class="name-empresa">Smart Shop</h1> 
            <span class="name-empresa" >Serviços e Soluções</span>
         </div>
-                <div class="menu-responsivo">
-                    <div onclick="abrirMenu()" class="icone-menu">
-                        <div class="barra"></div>
-                        <div class="barra"></div>
-                        <div class="barra"></div>
-                    </div>
-                    <nav id="menu-descktop" class="menu">
-                        <a href="index.html">Home</a>
-                        <a href="quemsomos.html">Sobre</a>
-                        <a href="#">Serviços</a>
-                        <a href="#">Consultoria</a>
-                        <a href="#">Treinamentos</a>
-                    </nav>
-                </div>
+
+        <div class="icone-menu" onclick="abrirMenu()">
+          <div class="barra"></div>
+          <div class="barra"></div>
+          <div class="barra"></div>
+        </div>
+        <nav id="menu-descktop" class="menu">
+          <a href="index.html">Home</a>
+          <a href="quemsomos.html">Sobre</a>
+          <a href="#">Serviços</a>
+          <a href="#">Consultoria</a>
+          <a href="#">Treinamentos</a>
+        </nav>
+         
     </header>
-    
+    <nav id="menu-mobile" class="nav-mobile">
+      <a href="index.html">Home</a>
+      <a href="quemsomos.html">Sobre</a>
+      <a href="#">Serviços</a>
+      <a href="#">Consultoria</a>
+      <a href="#">Treinamentos</a>
+      <a class="zap" href="#"> <img  class="icon-zap" src="imagens/whatsapp.png" alt="zap">solicite um orçamento </a>
+    </nav>
     <main class="principal">
 
         <div id="carouselExample" class="carousel slide text-center active ">
@@ -69,7 +76,10 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        
+          <h2 class="vi">Confira nossa equipe em ação!</h2>
+          <div class="video">
+           <video class="video1" src="#" autoplay controls></video>
+          </div>
 
     </main>
 
@@ -82,17 +92,48 @@
 
 
     <footer>
-        <div class="final">
-            <h2>Smart Shop</h2>
-            <p>Somos especialistas em tratamento de beleza para seus estofados e tapetes.</p>
-            <p>Nossa equipe está preparada para lhe dar um serviço de alta qualidade.</p>
-            <p></p>Solicite um orçamento sem compromisso
+        <div class="logo box">
+            <div>
+              <img class="logo-final"  src="imagens/logoSmart.png" alt="logotipoo">
+            </div>
+        </div>
+        <div class="inicio box">
+              <h3>Inicio</h3>
+              
+                <h6><a href="#">Home</a></h6>
+                <h6><a href="#">Serviços</a></h6>
+                <h6><a href="#">Consultoria</a></h6>
+                <h6><a href="#">Treinamentos</a></h6>
+      
+
+
+        </div>
+        <div class="sobre-nos box">
+            <h3>Sobre</h3>
+            <h6><a href="#">Informações da empresa</a></h6>
+            <h6><a href="#">Contato</a></h6>
+
+        </div>
+        <div class="suporte box">
+            suporte
+        </div>
+        <div class="rede-sociais box">
+            <div class="icones">
+              <a href="#"><img class="icon" src="icones/instagram.png" alt="instagram"></a>
+            </div>
+            <div class="icones">
+              <a href="#"><img class="icon" src="icones/what.png" alt="zap"></a>
+            </div>
+            <div class="botao">
+              <button class="buton">Contatos</button>
+            </div>
+
         </div>
         
-            
-        
-        
     </footer>
+    <div class="footer-rodape">smart</div>
+
+
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     

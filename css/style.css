@@ -35,17 +35,23 @@ body, html{
     align-items: center;
     box-sizing: border-box;
     border: 1px solid white;
+    border-radius: 5px;
     cursor: pointer;
+}
+.nav-mobile{
+    display: none;
 }
 
 .barra{
-    height: 6px;
-    margin: 10px;
-    border-radius: 5px;
+    max-height: 6px;
+    min-height: 2px;
+    margin: 7px;
+    border-radius: 6px;
     box-sizing: border-box;
     background-color: white;
     text-align: center;
-    width: 70px;
+    max-width: 70px;
+    min-width: 40px;
 }
 
 .menu a{
@@ -54,25 +60,99 @@ body, html{
     text-decoration: none;
     text-transform: uppercase;
     font-family:'sans';
+
+}
+.icon-zap{
+    height: 30px;
+    margin: 5px;
+}
+.zap{
+    background-color: green;
+    display: flex;
+    align-items: center;
 }
 
  a:hover{
-    text-decoration:none;
     color: white;
     background-color: rgb(17, 17, 70);
 
 }
-.final{
+header a, footer a{
+    text-decoration: none;
     color: white;
-    border: 1px solid black;
-    background-color:#012060;
 }
 .insta{
     width: 4%;
-    border-style: solid;
+    
 }
 .img-carrossel{
     height:100%;
     width: 100%;
 }
+h2.vi{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'sans';
+}
+div.video{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+    padding-bottom: 50%;
+    position: relative;
+
+}
+.video1{
+    margin: auto;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+footer{
+    background-color:#3a4b5f;
+    display: flex;
+    height: 400px;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.footer-rodape{
+    background-color: #393b48;
+    height: 50px;
+}
+.box{
+    color: white;
+    padding: 100px;
+    border: 1px solid white;
+}
+.logo-final{
+    margin: auto;
+    display: block;
+    width: 100px;
+}
+.icones{
+    margin: auto;
+    display: inline-block;
+}
+.icon{
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+.botao{
+    padding-top: 25px;
+}
+.buton{
+    text-align: center;
+    background-color: tomato;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+}
+
+
 
